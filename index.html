@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,width=device-width">
+
+    <title>SVG test</title>
+    <meta name="author" content="Pavel Salfetkin">
+    <meta name="description" content="Hi! My name is Pavel, this is SVG test.">
+    <meta name="keywords" content="html, css, javascript, ux, ui, frontend, front-end, web-design, developer, snap, svg">
+
+    <link rel="shortcut icon" href="img/favicon.png" type="image/png">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/favicon144.png" type="image/png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/favicon114.png" type="image/png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/favicon72.png" type="image/png">
+    <link rel="apple-touch-icon-precomposed" href="img/favicon57.png" type="image/png">
+    <link rel="apple-touch-icon" href="img/favicon.png" type="image/png">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+  </head>
+
+  <body>
+    <div class="container">
+
+      <div class="header"><h1>Кубическая кривая Безье</h1></div>
+
+      <div class="main">
+        <button id="reset" class="reset" type="button" name="back">Reset</button>
+        <div class="svg-container">
+          <div class="svg-container__field">
+            <svg class="svg-block" width="336" height="336"></svg>
+          </div>
+        </div>
+        <span id="path_attribute" class="path">123</span>
+      </div>
+
+      <footer class="footer">2018 © SVG test</footer>
+
+    </div>
+
+    <script src="js/lib/snap.svg.js"></script>
+    <script src="js/index.js"></script>
+    
+  </body>
+</html>
