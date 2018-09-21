@@ -96,6 +96,7 @@ h1 {
 	margin-bottom: 32px;
 	outline: none;
 	color: var(--day-medium-color);
+	background-color: transparent;
 	border: 1px solid var(--day-medium-color);
 	border-radius: 20px;
 	transition-duration: 0.4s;
